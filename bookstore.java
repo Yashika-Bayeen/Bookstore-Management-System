@@ -175,7 +175,7 @@ tf3.setText(""); tf4.setText("");}
 
 try{
 con=DriverManager.getConnection
-("jdbc:mysql://localhost:3306/store","username","password");
+("jdbc:mysql://localhost:3306/store","root","yourpassword");
 st=con.createStatement();
 rs=st.executeQuery("select*from addbooks");
 String name=tf1.getText();
